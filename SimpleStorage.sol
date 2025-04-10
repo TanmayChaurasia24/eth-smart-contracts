@@ -10,5 +10,7 @@ contract SimpleStorage {
     bytes32 myByte = "cat";
 
     uint256 defValue;// def value is 0
+    address[] users; // stores an array of addresses which are all zero
+    mapping(uint => string) numbersMap;
 
 }
